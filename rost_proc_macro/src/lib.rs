@@ -20,7 +20,7 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "druckezl" => "println", // print line -> drucke zeile
         "abbruch" => "break",
         "asynchron" => "async",
-        "abwarten" => "erwarte",
+        "abwarten" => "await",
         "schleife" => "loop",
         "schiebe" => "move",
         "kiste" => "crate",
